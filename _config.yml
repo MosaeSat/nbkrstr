@@ -1,0 +1,38 @@
+# Site Settings
+title: MosaeSat Public Data Hub
+email: fhcampbell@mosaezorg.com
+description: Harnessing satellite data for innovation in food and medicine.
+baseurl: "/Livestreams"          
+url: "https://mosaesat.github.io" 
+google_analytics: "G-0WJ0EYJ3X3"
+
+# Author Settings
+author: MosaeSat
+author_img: https://images.squarespace-cdn.com/content/651022c82e3e111d238164ed/fc2c239e-5863-47bd-bab4-1edd65f44f21/Mosae+Zorg+industries+logo+from+linkedin%2814%29.png?content-type=image%2Fpng 
+about-author: We are a team of researchers and developers passionate about using satellite data to solve real-world problems in food and medicine.
+
+# Social Media Links
+social-twitter: "" # Add your Twitter handle if applicable
+social-linkedin: "https://www.linkedin.com/company/mosaezorg/?viewAsMember=true" 
+social-website: "www.mosaezorg.com"
+social-email: fhcampbell@mosaezorg.com
+
+# Build Settings
+theme: minima
+#remote_theme: MosaeSat/flexible-jekyll
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap  # Optional, but recommended for SEO
+  - jemoji          # Optional, adds emoji support
+
+# Pagination Settings (Ideal for Most Blogs)
+paginate: 5 # Number of posts per page (adjust as needed)
+paginate_path: "/page:num/"
+
+# Exclude Files (Optional, but recommended for build optimization)
+exclude:
+  - node_modules/
+  - gulpfile.js
+  - package.json
+  - yarn.lock
